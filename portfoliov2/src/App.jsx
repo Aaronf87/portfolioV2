@@ -10,7 +10,6 @@ import Contact from './pages/Contact'
 import Footer from '../src/components/footer'
 
 function App() {
-
   return (
     <>
     <Header/>
@@ -20,8 +19,6 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
     <Footer/>
-   
-
     </>
   )
 }
