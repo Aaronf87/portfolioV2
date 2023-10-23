@@ -2,3 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.background {
+  background-image: url(./assets/pexels-animesh-srivastava-8236055.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

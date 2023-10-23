@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className="flex flex-col min-h-screen bg-black background text-white">
+            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Projects</h1>
 
             <a href="https://unitybiz-fd2efb602da8.herokuapp.com/">
                 <div>
