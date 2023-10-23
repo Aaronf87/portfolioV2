@@ -1,15 +1,24 @@
+import { Routes, Route } from "react-router-dom"
+
+
 import { useState } from 'react'
 import './App.css'
-import Header from './header'
-import Footer from './footer'
+import Header from '../src/components/header'
+import Home from '../src/pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Footer from '../src/components/footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <Header/>
-
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+    </Routes>
     <Footer/>
    
 
