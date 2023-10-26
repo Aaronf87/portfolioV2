@@ -8,10 +8,13 @@ This personal profile and portfolio was first deployed in June 2023 with several
 
 Created using React and Tailwind. 💻
 
+# usage
+
+Once the project has been forks. Run npm install, then npm run dev.
 
 In the future, I plan on updated the profile site with inplemented functionallity using other programing languages and new technologies 💻.
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
 
