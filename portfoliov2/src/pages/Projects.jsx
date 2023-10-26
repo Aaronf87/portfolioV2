@@ -6,30 +6,51 @@ export default function Projects() {
             <a href="https://unitybiz-fd2efb602da8.herokuapp.com/">
                 <div>
                     <div>
-                        <dt>UnityBiz</dt>
-                        <dd>Unifying work, Empowering success</dd>
+                        <dt className="text-3xl">UnityBiz</dt>
+                        <img className="rounded"
+                src="/src/assets/unityBiz.png"
+                alt="photo of unitybiz site"
+                width="384"
+                height="512"
+            />
+                      
                     </div>
                 </div>
             </a>
 
             <a href="https://aaronf87.github.io/Meow-Me/">
                 <div>
-                    <dt>Meow Me</dt>
-                    <dd>The only app you need!</dd>
+                    <dt className="text-3xl">Meow Me</dt>
+                    <img className="rounded" src="/src/assets/MeowMeDark.png"
+                alt="photo of meow me site"
+                width="384"
+                height="512"
+                border-radius="50%"
+            />
                 </div>
             </a>
 
             <a href="https://aaronf87.github.io/HorizonFansite/">
                 <div>
-                    <dt>Horizon Fan Page</dt>
-                    <dd></dd>
+                    <dt className="text-3xl">Horizon Fan Page</dt>
+                    <img className="rounded"  src="/src/assets/HorizonFanPagePhoto.jpg"
+                alt=""
+                width="384"
+                height="512"
+                border-radius="50%"
+            />
                 </div>
             </a>
 
             <a href="https://aaronf87.github.io/moc/">
                 <div>
-                    <dt>Candy Shop</dt>
-                    <dd ></dd>
+                    <dt className="text-3xl">Candy Shop</dt>
+                    <img className="rounded"  src="/src/assets/moc-image.png"
+                alt=""
+                width="384"
+                height="512"
+                border-radius="50%"
+            />
                 </div>
             </a>
 

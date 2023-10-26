@@ -5,12 +5,15 @@ export default function About() {
                 <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                     Hi There, My name is Aaron
                 </h1>
-                <p className="mt-4 text-white p-y font-bold">
-                    I am a developer from San Antonio, Texas. I enjoy all things tech
+                <p className="mt-4 text-3xl text-white p-y font-bold">
+                    I am a developer from San Antonio, Texas. </p>
+                       <p className="mt-4 text-3xl text-white p-y font-bold"> I enjoy all things tech
                     hardware and software. My goal is to find and inject efficiency in the
                     world of technology to benefit people in their quest to solve real
+                     </p><p className="mt-4 text-3xl text-white p-y font-bold">
                     world problems. The ability to innovate and pioneer bigger and better
                     is a dream I continue to pursue.
+                        
                 </p>
          
         </div>
