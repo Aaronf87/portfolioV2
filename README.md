@@ -19,7 +19,7 @@ In the future, I plan on updated the profile site with inplemented functionallit
 
 
 
-![alt text](/portfoliov2/src/assets/sitephoto.png)
+![alt text](/src/assets/sitephoto.png)
 
 # Questions
 
