@@ -1,9 +1,14 @@
+import unitybiz from "../assets/unityBiz.png";
+import meowme from "../assets/MeowMeDark.png";
+import horizon from "../assets/HorizonFanPagePhoto.jpg";
+import moc from "../assets/moc-image.png";
+
 export default function Projects() {
     return (
-        <div className="flex flex-col min-h-screen bg-black background text-white p-10">
+        <div className="flex bg-black background text-white p-10">
             <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Projects</h1>
 
-            <a className = "hover:bg-sky-700" href="https://unitybiz-fd2efb602da8.herokuapp.com/" >
+            <a className = "hover:bg-sky-700 card" href="https://unitybiz-fd2efb602da8.herokuapp.com/" >
                 <div>
                     <div>
                         <dt className="text-3xl ">UnityBiz</dt>
@@ -18,7 +23,7 @@ export default function Projects() {
                 </div>
             </a>
 
-            <a href="https://aaronf87.github.io/Meow-Me/">
+            <a className = "hover:bg-sky-700 card" href="https://aaronf87.github.io/Meow-Me/">
                 <div>
                     <dt className="text-3xl">Meow Me</dt>
                     <img className="rounded" src="/src/assets/MeowMeDark.png"
@@ -30,7 +35,7 @@ export default function Projects() {
                 </div>
             </a>
 
-            <a href="https://aaronf87.github.io/HorizonFansite/">
+            <a className = "hover:bg-sky-700 card" href="https://aaronf87.github.io/HorizonFansite/">
                 <div>
                     <dt className="text-3xl">Horizon Fan Page</dt>
                     <img className="rounded"  src="/src/assets/HorizonFanPagePhoto.jpg"
@@ -42,7 +47,7 @@ export default function Projects() {
                 </div>
             </a>
 
-            <a href="https://aaronf87.github.io/moc/">
+            <a className = "hover:bg-sky-700 card" href="https://aaronf87.github.io/moc/">
                 <div>
                     <dt className="text-3xl">Candy Shop</dt>
                     <img className="rounded"  src="/src/assets/moc-image.png"
