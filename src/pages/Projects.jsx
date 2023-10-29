@@ -3,10 +3,10 @@ export default function Projects() {
         <div className="flex flex-col min-h-screen bg-black background text-white p-10">
             <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Projects</h1>
 
-            <a href="https://unitybiz-fd2efb602da8.herokuapp.com/">
+            <a className = "hover:bg-sky-700" href="https://unitybiz-fd2efb602da8.herokuapp.com/" >
                 <div>
                     <div>
-                        <dt className="text-3xl">UnityBiz</dt>
+                        <dt className="text-3xl ">UnityBiz</dt>
                         <img className="rounded"
                 src="/src/assets/unityBiz.png"
                 alt="photo of unitybiz site"
