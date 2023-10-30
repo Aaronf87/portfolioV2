@@ -1,29 +1,43 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
+*{
+  border:solid 1px red;
+}
 .background {
   background-image: url(./assets/pexels-animesh-srivastava-8236055.jpg);
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.notfound{
+.notfound {
   background-image: url(./assets/404.jpg);
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.card{
-border: 1px solid #e2e8f0;
-border-radius: 10px;
-box-shadow: 4px 4px 4px;
-padding: 20px;
-margin:10px;
-background-color:rgba(50, 47, 47, 0.814);
-text-align: center;
-max-width: 450px;
-display: inline-block;
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(50, 47, 47, 0.814);
+  text-align: center;
+  max-width: 450px;
+  display: inline-block;
+}
+
+.aboutcard {
+  flex-shrink: calc(1 / 3);
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(50, 47, 47, 0.814);
+  max-width: 50rem;
+ 
 }

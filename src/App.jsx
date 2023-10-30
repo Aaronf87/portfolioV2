@@ -1,26 +1,28 @@
-import { Routes, Route } from "react-router-dom"
-import Header from '../src/components/header'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Projects from './pages/Projects'
-import Footer from '../src/components/footer'
-import NotFound from '../src/pages/NotFound'
-import './index.css'
+import { Routes, Route } from "react-router-dom";
+import Header from "../src/components/header";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Footer from "../src/components/footer";
+import NotFound from "../src/pages/NotFound";
+import "./index.css";
 
 function App() {
   return (
     <>
-    <Header/>
-    <Routes>
-      <Route path="/" element={<About/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/projects" element={<Projects/>}/>
-      <Route path="*" element={<NotFound/>}/>
-    </Routes>
-    <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <></>
+      <Footer
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
