@@ -18,7 +18,7 @@ export default function Projects() {
       >
         <div>
           <div>
-            <dt className="text-3xl ">UnityBiz</dt>
+            <dt className="text-3xl p-3">UnityBiz</dt>
             <img
               className="rounded"
               src={unitybiz}
@@ -26,10 +26,10 @@ export default function Projects() {
               width="384"
               height="512"
             />
+          </div>
             <a href="https://github.com/Aaronf87/UnityBiz">
               <DiGithubBadge className="m-4" size="4rem" />{" "}
             </a>
-          </div>
         </div>
       </a>
 
@@ -38,7 +38,7 @@ export default function Projects() {
         href="https://aaronf87.github.io/Meow-Me/"
       >
         <div>
-          <dt className="text-3xl">Meow Me</dt>
+          <dt className="text-3xl p-3">Meow Me</dt>
           <img
             className="rounded"
             src= {meowme}
@@ -47,6 +47,9 @@ export default function Projects() {
             height="512"
             border-radius="50%"
           />
+            <a href="https://github.com/Aaronf87/Meow-Me">
+              <DiGithubBadge className="m-4" size="4rem" />{" "}
+            </a>
         </div>
       </a>
 
@@ -55,7 +58,7 @@ export default function Projects() {
         href="https://aaronf87.github.io/HorizonFansite/"
       >
         <div>
-          <dt className="text-3xl">Horizon Fan Page</dt>
+          <dt className="text-3xl p-3">Horizon Fan Page</dt>
           <img
             className="rounded"
             src= {horizon}
@@ -64,6 +67,9 @@ export default function Projects() {
             height="512"
             border-radius="50%"
           />
+            <a href="https://github.com/Aaronf87/HorizonFansite">
+              <DiGithubBadge className="m-4" size="4rem" />{" "}
+            </a>
         </div>
       </a>
 
@@ -72,7 +78,7 @@ export default function Projects() {
         href="https://aaronf87.github.io/moc/"
       >
         <div>
-          <dt className="text-3xl">Candy Shop</dt>
+          <dt className="text-3xl p-3">Museum of Candy Shop</dt>
           <img
             className="rounded"
             src= {candyshop}
@@ -81,6 +87,9 @@ export default function Projects() {
             height="512"
             border-radius="50%"
           />
+            <a href="https://github.com/Aaronf87/moc">
+              <DiGithubBadge className="m-4" size="4rem" />{" "}
+            </a>
         </div>
       </a>
     </div>
