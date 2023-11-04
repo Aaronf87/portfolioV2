@@ -1,4 +1,7 @@
 import unitybiz from "../assets/unityBiz.png";
+import meowme from "../assets/MeowMeDark.png";
+import horizon from "../assets/HorizonFanPagePhoto.jpg";
+import candyshop from "../assets/moc-image.png";
 
 import { DiGithubBadge } from "react-icons/di";
 
@@ -38,7 +41,7 @@ export default function Projects() {
           <dt className="text-3xl">Meow Me</dt>
           <img
             className="rounded"
-            src="/src/assets/MeowMeDark.png"
+            src= {meowme}
             alt="photo of meow me site"
             width="384"
             height="512"
@@ -55,7 +58,7 @@ export default function Projects() {
           <dt className="text-3xl">Horizon Fan Page</dt>
           <img
             className="rounded"
-            src="/src/assets/HorizonFanPagePhoto.jpg"
+            src= {horizon}
             alt=""
             width="384"
             height="512"
@@ -72,7 +75,7 @@ export default function Projects() {
           <dt className="text-3xl">Candy Shop</dt>
           <img
             className="rounded"
-            src="/src/assets/moc-image.png"
+            src= {candyshop}
             alt=""
             width="384"
             height="512"
