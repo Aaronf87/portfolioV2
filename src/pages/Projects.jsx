@@ -26,7 +26,7 @@ export default function Projects() {
               width="384"
               height="512"
             />
-            <a href="">
+            <a href="https://github.com/Aaronf87/UnityBiz">
               <DiGithubBadge className="m-4" size="4rem" />{" "}
             </a>
           </div>
