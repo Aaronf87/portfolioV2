@@ -1,3 +1,5 @@
+import profilep from "../assets/me.jpeg";
+
 export default function About() {
   return (
     <div className="flex flex-col min-h-screen bg-black background p-10">
@@ -11,7 +13,7 @@ export default function About() {
         </h1>
         <img
           className="w-60 h-30 rounded mx-auto md:h-auto m-9"
-          src="src/assets/me.jpeg"
+          src={`${profilep}`}
           alt="photo of Aaron Flores"
         />
       </div>
