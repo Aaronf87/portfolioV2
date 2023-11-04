@@ -1,3 +1,5 @@
+import unitybiz from "../assets/unityBiz.png";
+
 import { DiGithubBadge } from "react-icons/di";
 
 export default function Projects() {
@@ -16,7 +18,7 @@ export default function Projects() {
             <dt className="text-3xl ">UnityBiz</dt>
             <img
               className="rounded"
-              src="/src/assets/unityBiz.png"
+              src={unitybiz}
               alt="photo of unitybiz site"
               width="384"
               height="512"
