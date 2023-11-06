@@ -8,7 +8,7 @@ This personal profile and portfolio was first deployed in June 2023 with several
 
 Created using React and Tailwind. 💻
 
-![alt text](https://afprofilev2.netlify.app/)
+https://afprofilev2.netlify.app/
 
 # usage
 
