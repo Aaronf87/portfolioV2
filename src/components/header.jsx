@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div>
+        <>
             <nav className="bg-gray-800">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="relative flex h-20 items-center justify-between tracking-tight">
@@ -14,7 +14,7 @@ export default function Header() {
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
-                                    <a href="/about" className="bg-gray-900 text-white rounded-md px-3 py-2 text-3xl font-medium text-3xl" aria-current="page">About Me</a>
+                                    <a href="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-3xl font-medium text-3xl" aria-current="page">About Me</a>
                                     <a href="/projects" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-3xl font-medium text-3xl">Projects</a>
                                     <a href= "/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-3xl font-medium text-3xl">Contact Me</a>
                                 </div>
@@ -23,7 +23,7 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-        </div>
+        </>
     );
 }
 
