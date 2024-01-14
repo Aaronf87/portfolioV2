@@ -1,12 +1,12 @@
 import profilep from "../assets/me.jpeg";
 
-const product = [
+const me = [
   {
     name: "Aaron Flores",
     role: "Software Developer",
     imageUrl: `${profilep}`,
   },
-  // More people...
+  // Add another person if needed...
 ];
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
            About myself
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 p-4">
+          <p className="mt-6 text-lg leading-8 text-indigo-600 p-4">
             Hi There,<br></br>  My name is Aaron I am a Full Stack software developer.
             I enjoy all things tech hardware and software. My goal is to find
             and inject efficiency in the world of technology to benefit people
@@ -29,20 +29,20 @@ export default function Home() {
           role="list"
           className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
         >
-          {product.map((product) => (
-            <li key={product.name}>
+          {me.map((me) => (
+            <li key={me.name}>
               <div className="flex items-center gap-x-6">
                 <img
                   className="h-25 w-25 "
-                  src={product.imageUrl}
+                  src={me.imageUrl}
                   alt="photo of Aaron Flores"
                 />
                 <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
-                    {product.name}
+                  <h3 className="text-xl font-semibold leading-7 tracking-tight text-gray-900">
+                    {me.name}
                   </h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">
-                    {product.role}
+                  <p className="text-xl font-semibold leading-6 text-indigo-600">
+                    {me.role}
                   </p>
                 </div>
               </div>

@@ -6,7 +6,7 @@ export default function Home() {
         <div className="container px-6 py-10 mx-auto">
             <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">My Projects</h1>
 
-            <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300 text-3xl">
+            <p className="max-w-2xl mx-auto my-6 text-center text-indigo-500 dark:text-gray-300 text-3xl">
                These projects incompass my current and passed work in the field of software development. The projects are a mix of personal and group collaborated projects.
             </p>
 
