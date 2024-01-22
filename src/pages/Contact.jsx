@@ -9,7 +9,7 @@ return (
 
  </div>
 
-<textarea name="" id="" cols="30" rows="10"></textarea>
+<textarea nameName ="" id=" " placeholder="Ask me a question..." cols="5" rows="10"></textarea>
 
 
 <p>aaron.developer24@gmail.com</p>
