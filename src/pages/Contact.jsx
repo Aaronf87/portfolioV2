@@ -9,10 +9,10 @@ return (
 
  </div>
 
-<textarea nameName ="" id=" " placeholder="Ask me a question..." cols="5" rows="10"></textarea>
+<textarea className ="border-4 border-sky-700-500 p-4" id=" " placeholder="Ask me a question..." cols="5" rows="10"></textarea>
 
 
-<p>aaron.developer24@gmail.com</p>
+<p className="p-5 text-3xl">aaron.developer24@gmail.com</p>
 
 </div>
 )
